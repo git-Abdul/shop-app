@@ -50,7 +50,7 @@ export function NavBar() {
                             <li>
                                 <Link href={"/"}>
                                     <p
-                                        className="block text-lg py-2 pl-3 pr-4 dark:text-white text-zinc-800 rounded md:bg-transparent md:p-0 ease-in duration-200 hover:gradient"
+                                        className="block text-lg py-2 pl-3 pr-4 hover:text-gray-600 text-zinc-800 rounded md:bg-transparent md:p-0 ease-in duration-200 hover:gradient"
                                         aria-current="page"
                                     >
                                         Home
@@ -59,14 +59,14 @@ export function NavBar() {
                             </li>
                             <li>
                                 <Link href={"/market"}>
-                                    <p className="block text-lg py-2 pl-3 pr-4 dark:text-white text-zinc-800 rounded md:hover:bg-transparent md:border-0 ease-in duration-200 hover:gradient md:p-0 md:dark:hover:bg-transparent">
+                                    <p className="block text-lg py-2 pl-3 pr-4 hover:text-gray-600 text-zinc-800 rounded md:hover:bg-transparent md:border-0 ease-in duration-200 hover:gradient md:p-0 md:dark:hover:bg-transparent">
                                         Market
                                     </p>
                                 </Link>
                             </li>
                             <li>
                                 <Link href={"#about"}>
-                                    <p className="block text-lg py-2 pl-3 pr-4 dark:text-white text-zinc-800 rounded md:hover:bg-transparent md:border-0 md:p-0 ease-in duration-200 hover:gradient md:dark:hover:bg-transparent">
+                                    <p className="block text-lg py-2 pl-3 pr-4 hover:text-gray-600 text-zinc-800 rounded md:hover:bg-transparent md:border-0 md:p-0 ease-in duration-200 hover:gradient md:dark:hover:bg-transparent">
                                         Choose Us
                                     </p>
                                 </Link>

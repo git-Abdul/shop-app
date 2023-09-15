@@ -16,6 +16,9 @@ module.exports = {
       },
     },
     extend: {
+      colors: {
+        "accent": "#ff204e"
+      },
       fontFamily: {
         "bridge": ["Bricolage Grotesque"],
         "poppins": ["Poppins"],

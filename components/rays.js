@@ -3,7 +3,7 @@ export function Rays() {
         <>
             {/* Rays */}
             <div
-                className="absolute top-0 left-1 transform -translate-x-1/2 md:-mt-48 -mt-10 h-72 w-72 md:h-auto md:w-auto"
+                className="absolute left-1 transform -translate-x-1/2 md:-mt-96 -mt-10 h-72 w-72 md:h-auto md:w-auto"
                 style={{ zIndex: -1 }}
             >
                 <img
