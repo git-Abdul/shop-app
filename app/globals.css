@@ -2,22 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --bg-color: #fff;
-}
-
-body {
-  background-color: var(--bg-color);
-  background: rgb(218, 225, 230);
-  background: linear-gradient(266deg, rgba(218, 225, 230, 1) 0%, rgba(219, 223, 228, 1) 5%, rgba(255, 255, 255, 1) 71%);
-}
-
 .item-blur {
   backdrop-filter: blur(20px);
 }
 
 @media (max-width: 768px) {
-  .flex-col {
+  .reverse {
     flex-direction: column-reverse; /* Reverses the order on smaller screens */
   }
 }
