@@ -27,6 +27,19 @@
     margin-left: 0px;
 }
 
+.product-container {
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 80%;
+    display: flex;
+}
+
+.product-container img {
+    flex: 0 0 auto;
+    width: 600px;
+    margin-left: 0px;
+}
+
 @media (max-width: 768px) {
     .hide-on-small {
         display: none;

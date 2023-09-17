@@ -58,8 +58,8 @@ export function Pricing() {
                                 <Button className="w-full">Get Started</Button>
                             </div>
                         </div>
-                        <div className="relative flex flex-col p-6 bg-white shadow-lg rounded-lg dark:bg-zinc-850 justify-between border border-purple-500">
-                            <div className="px-3 py-1 text-sm text-white bg-gradient-to-r from-pink-500 to-purple-500 rounded-full inline-block absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                        <div className="relative flex flex-col p-6 bg-white shadow-lg rounded-lg dark:bg-zinc-850 justify-between border border-red-400">
+                            <div className="px-3 py-1 text-sm text-black bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 rounded-full inline-block absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                                 Popular
                             </div>
                             <div>
@@ -128,7 +128,7 @@ export function Pricing() {
                                 </ul>
                             </div>
                             <div className="mt-6">
-                                <Button className="w-full bg-gradient-to-r from-pink-500 to-purple-500">Get Started</Button>
+                                <Button className="w-full text-black bg-gradient-to-r from-red-200 via-red-300 to-yellow-200">Get Started</Button>
                             </div>
                         </div>
                         <div className="flex flex-col p-6 bg-white shadow-lg rounded-lg dark:bg-zinc-850 justify-between border border-gray-300">

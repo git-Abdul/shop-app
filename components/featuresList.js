@@ -5,7 +5,7 @@ export function FeaturesList() {
         <div className='mb-10 md:mt-0 mt-20 flex flex-wrap justify-center gap-5'>
             <div className="bg-gray-200 border border-zinc-300 p-3 rounded-lg flex items-center">
                 <img
-                    src="https://img.icons8.com/?size=512&id=TdgoFB7uKPlI&format=png"
+                    src="secure.svg"
                     className="w-10 h-10"
                 />
                 <p
@@ -18,7 +18,7 @@ export function FeaturesList() {
 
             <div className="bg-gray-200 border border-zinc-300 p-3 rounded-lg flex items-center">
                 <img
-                    src="https://img.icons8.com/?size=512&id=woMC0BA8mqBt&format=png"
+                    src="clock.svg"
                     className="w-10 h-10"
                 />
                 <p
@@ -31,7 +31,7 @@ export function FeaturesList() {
 
             <div className="bg-gray-200 border border-zinc-300 p-3 rounded-lg flex items-center">
                 <img
-                    src="https://img.icons8.com/?size=512&id=sH5IBgX3H7wP&format=png"
+                    src="cart.svg"
                     className="w-10 h-10"
                 />
                 <p
@@ -44,7 +44,7 @@ export function FeaturesList() {
 
             <div className="bg-gray-200 border border-zinc-300 p-3 rounded-lg flex items-center">
                 <img
-                    src="https://img.icons8.com/?size=512&id=yEzFx4cwLDIh&format=png"
+                    src="design.svg"
                     className="w-10 h-10"
                 />
                 <p
