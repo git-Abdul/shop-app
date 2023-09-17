@@ -1,6 +1,10 @@
 # KICKS - Sneaker Shop Website
 
 <img src="https://i.postimg.cc/kGnxS3hk/Screenshot-2023-09-17-130450.png" alt="website img">
+<img src="https://i.postimg.cc/j50Rwc2f/Screenshot-2023-09-17-172928.png" alt="website img">
+<img src="https://i.postimg.cc/tRz9Jhj1/Screenshot-2023-09-17-172936.png" alt="website img">
+<img src="https://i.postimg.cc/J0K8FWq3/Screenshot-2023-09-17-172949.png" alt="website img">
+<img src="https://i.postimg.cc/3r9HYYXm/Screenshot-2023-09-17-173228.png" alt="website img">
 
 Welcome to the README for the KICKS Sneaker Shop website! This website is built using React and Next.js and is designed to provide a beautiful, modern, and sophisticated shopping experience for sneaker enthusiasts. Below, you'll find information on how to set up and run the project, as well as an overview of the website's features.
 
