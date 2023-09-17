@@ -3,11 +3,40 @@
 @tailwind utilities;
 
 .item-blur {
-  backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+}
+
+.image-container {
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 80%;
+    display: flex;
+}
+
+.image-container::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+.image-container::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+.image-container img {
+    flex: 0 0 auto;
+    width: 600px;
+    margin-left: 0px;
 }
 
 @media (max-width: 768px) {
-  .reverse {
-    flex-direction: column-reverse; /* Reverses the order on smaller screens */
-  }
+    .hide-on-small {
+        display: none;
+    }
+
+    .reverse {
+        flex-direction: column-reverse;
+    }
+
+    .image-container {
+        width: 100%;
+    }
 }

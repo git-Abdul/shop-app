@@ -58,16 +58,16 @@ export function NavBar() {
                                 </Link>
                             </li>
                             <li>
-                                <Link href={"/market"}>
+                                <Link href={"/shop"}>
                                     <p className="block text-lg py-2 pl-3 pr-4 hover:text-orange-300 text-zinc-800 rounded md:hover:bg-transparent md:border-0 ease-in duration-200 hover:gradient md:p-0 md:dark:hover:bg-transparent">
-                                        Market
+                                        Shop
                                     </p>
                                 </Link>
                             </li>
                             <li>
-                                <Link href={"#about"}>
+                                <Link href={"/pricing"}>
                                     <p className="block text-lg py-2 pl-3 pr-4 hover:text-orange-300 text-zinc-800 rounded md:hover:bg-transparent md:border-0 md:p-0 ease-in duration-200 hover:gradient md:dark:hover:bg-transparent">
-                                        Choose Us
+                                        Pricing
                                     </p>
                                 </Link>
                             </li>
