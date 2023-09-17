@@ -6,7 +6,9 @@ export function ShopView() {
   return (
     <>
       <Rays />
-      <div className='mt-32 mb-10 flex flex-wrap justify-center gap-5'>
+      <div className="text-center font-bridge text-4xl font-bold mt-32 mb-10">Shopping</div>
+      <hr className="w-36 h-1 mx-auto mb-10 bg-gray-400 border-0 rounded"></hr>
+      <div className='mb-10 flex flex-wrap justify-center gap-5'>
         <div className="bg-zinc-100 border border-zinc-300 p-3 md:m-0 m-5 w-128 rounded-lg flex flex-col md:flex-row items-center">
           <div className="w-48 h-54 flex-shrink-0 mb-4 md:mb-0">
             <img
